@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error_network">Bağlantı yok. Ağını kontrol edip tekrar dene.</string>
+    <string name="error_server">Sunucu isteği karşılayamadı (%1$d).</string>
+    <string name="error_unknown">Bir şeyler ters gitti. Lütfen tekrar dene.</string>
+    <string name="error_title_required">Başlık boş olamaz</string>
+    <string name="error_body_required">Açıklama boş olamaz</string>
+
+    <string name="action_retry">Tekrar dene</string>
+    <string name="action_undo">Geri al</string>
+    <string name="action_edit">Düzenle</string>
+    <string name="action_cancel">İptal</string>
+    <string name="action_save">Kaydet</string>
+</resources>

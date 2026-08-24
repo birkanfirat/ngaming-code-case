@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error_network">No connection. Check your network and try again.</string>
+    <string name="error_server">The server could not handle the request (%1$d).</string>
+    <string name="error_unknown">Something went wrong. Please try again.</string>
+    <string name="error_title_required">Title cannot be empty</string>
+    <string name="error_body_required">Description cannot be empty</string>
+
+    <string name="action_retry">Retry</string>
+    <string name="action_undo">Undo</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_save">Save</string>
+</resources>
