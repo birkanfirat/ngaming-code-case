@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/colorSurface"
+    android:foreground="?attr/selectableItemBackground"
+    android:paddingStart="@dimen/spacing_medium"
+    android:paddingTop="@dimen/spacing_medium"
+    android:paddingEnd="@dimen/spacing_medium"
+    android:paddingBottom="@dimen/spacing_medium">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="@dimen/thumbnail_size"
+        android:layout_height="@dimen/thumbnail_size"
+        android:contentDescription="@null"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/ShapeAppearance.NgamingCase.Circle"
+        tools:src="@drawable/bg_thumbnail_placeholder" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_medium"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textAppearance="?attr/textAppearanceTitleMedium"
+        android:textColor="?attr/colorOnSurface"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/thumbnail"
+        app:layout_constraintTop_toTopOf="@id/thumbnail"
+        tools:text="sunt aut facere repellat provident" />
+
+    <TextView
+        android:id="@+id/body"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_medium"
+        android:layout_marginTop="@dimen/spacing_small"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:textAppearance="?attr/textAppearanceBodyMedium"
+        android:textColor="?attr/colorOnSurfaceVariant"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/thumbnail"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        tools:text="quia et suscipit suscipit recusandae consequuntur expedita et cum" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="posts_title">Gönderiler</string>
+    <string name="posts_empty">Burada henüz bir şey yok.</string>
+    <string name="post_deleted">Gönderi silindi</string>
+
+    <string name="post_detail_title">Gönderi</string>
+    <string name="post_updated">Değişiklikler kaydedildi</string>
+    <string name="post_unchanged">Değişiklik yapılmadı</string>
+    <string name="detail_hint_title">Başlık</string>
+    <string name="detail_hint_body">Açıklama</string>
+</resources>
